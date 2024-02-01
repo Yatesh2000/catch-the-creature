@@ -1,0 +1,122 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'dragon hunter';
+}
+
+html, body {
+   width: 100%;
+   height: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+
+}
+
+.screen{
+    height: 100%;
+    width: 100%;
+    background-color: #092635;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all linear 0.2s;
+}
+
+h1{
+    font-size: 6vw;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #5C8374;
+
+}
+
+button{
+    padding: 18px 35px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 3px solid #3a5d4f;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #9EC8B9;
+    cursor: pointer;
+    transition: all ease 0.1s;
+
+}
+
+button:hover{
+    background-color: #5C8374;
+    color: #092635;
+}
+
+button:active{
+    scale: 0.96;
+}
+
+
+h2{
+    font-size: 3.5vw;
+    color: #5C8374;
+}
+
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+
+.elem{
+    text-align: center;
+    border: 2px solid #5C8374;
+    padding: 10px ;
+    color: #5C8374;
+    border-radius: 10px;
+    transition: all ease 0.2s;
+    cursor: pointer;
+}
+
+
+.elem img{
+    height: 120px;
+    width: fit-content;
+
+}
+
+.elem:hover{
+    background-color: #5C8374;
+    color: #092635;
+}
+
+#details{
+    height: 10%;
+    width: 100%;
+    border-bottom: 3px solid #3a5d4f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+#details h3{
+    font-size: 30px;
+    color: #3d6153;
+}
+
+#play{
+    height: 90%;
+    width: 100%;
+    background-color: #092635;
+}
+
+#play img{
+    height: 160px;
+    position: absolute;
+}
